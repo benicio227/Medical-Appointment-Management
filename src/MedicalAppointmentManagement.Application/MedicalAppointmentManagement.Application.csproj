@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BrazilModels" Version="2.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MedicalAppointmentManagement.Exception\MedicalAppointmentManagement.Exception.csproj" />
+    <ProjectReference Include="..\MedicalAppointmentManagement.Infrastructure\MedicalAppointmentManagement.Infrastructure.csproj" />
+    <ProjectReference Include="..\MedicalManagement.Communication\MedicalManagement.Communication.csproj" />
+  </ItemGroup>
+
+</Project>
