@@ -19,5 +19,27 @@ Dentre os pacotes NuGet utilizados, o **FluentAssertions** é utilizado nos test
 - **Cadastro de Pacientes e Médicos**: Usuários administrativos podem cadastrar e gerenciar informações sobre médicos e pacientes.
 - **Proibição de Conflitos de Horário para o Mesmo Médico**: Não é permitido agendar consultas para o mesmo médico no mesmo dia e horário. A aplicação verifica automaticamente se já existe uma consulta cadastrada para o médico no horário solicitado antes de confirmar o agendamento.
 - **Restrição de Consultas Simultâneas para o Mesmo Paciente**: Um paciente não pode ter duas consultas no mesmo dia e horário. Antes de registrar uma nova consulta, a aplicação verifica se o paciente já possui uma consulta agendada no mesmo período.
-- **Consultas Completas com Informações Relacionadas**: As informações de consultas incluem detalhes completos de médicos e pacientes devido ao uso de chaves estrangeiras e propriedades de navegação no banco de dados. 
+- **Consultas Completas com Informações Relacionadas**: As informações de consultas incluem detalhes completos de médicos e pacientes devido ao uso de chaves estrangeiras e propriedades de navegação no banco de dados.
+
+## Getting Started
+
+Para obter uma cópia local funcionando, siga estes passos simples:
+
+### Requisitos
+
+- Visual Studio versão 2022+ ou Visual Studio Code
+- Windows 10+ ou Linux/MacOS com .NET SDK instalado
+- MySql Server
+
+### Instalação
+
+1. Clone o repositório:
+    ```sh
+    git clone git@github.com:benicio227/Medical-Appointment-Management.git
+    ```
+
+2. Preencha as informações no arquivo `appsetings.Development.json`.
+3. Execute a API 
+
+
 
