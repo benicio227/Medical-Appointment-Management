@@ -21,6 +21,15 @@ Dentre os pacotes NuGet utilizados, o **FluentAssertions** é utilizado nos test
 - **Restrição de Consultas Simultâneas para o Mesmo Paciente**: Um paciente não pode ter duas consultas no mesmo dia e horário. Antes de registrar uma nova consulta, a aplicação verifica se o paciente já possui uma consulta agendada no mesmo período.
 - **Consultas Completas com Informações Relacionadas**: As informações de consultas incluem detalhes completos de médicos e pacientes devido ao uso de chaves estrangeiras e propriedades de navegação no banco de dados.
 
+### Construído com
+
+![.NET Badge](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=for-the-badge)
+![badge-windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![visual-studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
+![badge-mysql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![badge-swagger](http://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=for-the-badge)
+
+
 ## Getting Started
 
 Para obter uma cópia local funcionando, siga estes passos simples:
